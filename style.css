@@ -1,0 +1,111 @@
+body{
+    background:rgb(0, 174, 255);
+    background-image: linear-gradient(rgb(0, 174, 255),black);
+    
+}
+
+.img{
+    display:block inline;
+    background:#8e8b8b;
+    border:5px solid red;
+    width:264px;
+    height:970;
+    position:center;
+    float:left;
+    opacity:120%;
+    text-align:center;
+    margin-block:80px;
+    border-radius: 15px;
+}
+
+article{
+    background:#8e8b8b;
+    width:60%;
+    height:950px;
+    border:5px solid rgb(255, 0, 0);
+    padding:0px;
+    margin:0px;
+    float:right;
+    top:50px;
+    margin-block:80px;
+    border-radius: 15px;
+
+    
+    
+}
+.mario{float:left;}
+article p{text-align:center;}
+article h1{text-align:center;
+background:#000000;
+color:white;}
+
+aside{float: right;}
+
+header{
+    padding:25px 470px; 
+    font-size:20px;
+    background: rgb(255, 0, 0);
+    color:white;
+    border:5px solid red;
+    text-align:center;
+    border-radius: 15px;
+    box-sizing: border-box;
+    float:inline-start;
+    position:fixed;
+}
+
+.botones a{
+    font-size:20px;
+    text-align: center;
+    color:black;
+    border:5px solid rgb(255,0,0);
+    border-radius:15px;
+    padding:10px;
+    margin:15px;
+    text-decoration:none;
+    clip-path: circle(100% at center);
+    transition-property: clipp-path;
+    transition-duration: 1s;
+    transition:background-color 1s;
+
+}
+.botones a:hover{background:rgb(255, 102, 0);width:50px;}
+.botones a:hover{color:(#ffe100); text-decoration:none}
+.botones a:active{color:rgb(255, 0, 0);}
+
+.barraizq a{
+    font-size:25px;
+
+    color:black;
+    text-decoration:none;
+    display:block;
+    border-radius: 15px;
+}
+.barraizq a:hover{color:#ffe100;}
+
+.barraizq{
+    background:#8e8b8b;
+    color:black;
+    border:5px solid rgb(255, 0, 0);
+    height:950px;
+    width:20%;
+    overflow:auto;
+    float:right;
+    position:center;
+    text-decoration: none;
+    border-radius:15px;
+    top:23px;
+    margin-block:80px;
+    text-align:center;
+    
+}
+li{list-style: none;}
+.hov{
+    background: #8e8b8b;
+    color:#ffe100;
+}
+.hov:hover{
+    background: #000000;
+    color:rgb(0, 0, 0);
+}
+.hov:active{background-color:black}
